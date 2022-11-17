@@ -12,7 +12,7 @@ public class brothers {
             case "Edilenia": System.out.println("Es la unica hermana de padre"); break;
             case "Edwing": System.out.println("Este hermano vive en la ciudad de Santo Domingo"); break;
             case "Ruddy": System.out.println("Este es el hermano mayor de madre"); break;
-            default: System.out.println("No tengo ningun hermano con ese nombre");
+            default: System.out.println("No reconozco ese nombre");
         }
         scan.close();
     }
