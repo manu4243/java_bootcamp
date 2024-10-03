@@ -1,10 +1,8 @@
-public class joiningstrings {
+public class joiningStrings {
     public static void main(String[] args) {
-        String sentence = "Mi nombre es ";
-        String name = "Enmanuel";
-        int years = 35;
-        System.out.println(sentence + name);
-        System.out.println("I am " + years + " years old.");
-        
+        int year = 2010;
+        String winner = "Spain";
+
+        String announcement = "The winner of " + year + "'s Cup is " + winner + ".";
     }
 }
